@@ -91,6 +91,12 @@ const CONFIG = {
       to: 'December 2023',
       companyLink: 'https://www.xavor.com/',
     },
+    {
+      company: 'CloudPlex Inc.',
+      position: 'Full Stack Developer',
+      from: 'September 2021',
+      to: 'January 2022',
+    },
   ],
   educations: [
     {
@@ -204,12 +210,6 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
   enablePWA: true,
 };
 

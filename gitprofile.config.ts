@@ -79,26 +79,17 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Omega Software Solutions',
+      position: 'Full-stack Engineer',
+      from: 'March 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Xavor Corporation',
+      position: 'Web Frontend Engineer',
+      from: 'February 2022',
+      to: 'December 2023',
+      companyLink: 'https://www.xavor.com/',
     },
   ],
   educations: [

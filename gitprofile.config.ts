@@ -100,16 +100,21 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'FAST-NUCES Lahore',
+      degree: 'Bachelor of Computer Science',
+      to: '2021',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Lahore Grammar School',
+      degree: 'A Levels',
+      from: '2013',
+      to: '2015',
+    },
+    {
+      institution: 'Lahore College of Arts and Sciences',
+      degree: 'O Levels',
+      from: '2011',
+      to: '2013',
     },
   ],
   publications: [

@@ -708,15 +708,15 @@ Provide your academic publishing in `publications`.
 const CONFIG = {
   // ...
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    },
+    // {
+    //   title: 'Publication Title',
+    //   conferenceName: 'Conference Name',
+    //   journalName: 'Journal Name',
+    //   authors: 'John Doe, Jane Smith',
+    //   link: 'https://example.com',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    // },
   ],
 };
 ```

@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import LazyImage from '../lazy-image';
-import { AiOutlineContainer } from 'react-icons/ai';
 import { getDevPost, getMediumPost } from '@arifszn/blog-js';
 import { formatDistance } from 'date-fns';
+import { useEffect, useState } from 'react';
+import { AiOutlineContainer } from 'react-icons/ai';
+import { Article } from '../../interfaces/article';
 import { SanitizedBlog } from '../../interfaces/sanitized-config';
 import { ga, skeleton } from '../../utils';
-import { Article } from '../../interfaces/article';
+import LazyImage from '../lazy-image';
 
 const BlogCard = ({
   loading,
@@ -23,13 +23,13 @@ const BlogCard = ({
       getMediumPost({
         user: blog.username,
       }).then((res) => {
-        setArticles(res);
+        // setArticles(res);
       });
     } else if (blog.source === 'dev') {
       getDevPost({
         user: blog.username,
       }).then((res) => {
-        setArticles(res);
+        // setArticles(res);
       });
     }
   }, [blog.source, blog.username]);

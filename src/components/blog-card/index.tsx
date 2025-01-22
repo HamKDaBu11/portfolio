@@ -23,13 +23,13 @@ const BlogCard = ({
       getMediumPost({
         user: blog.username,
       }).then((res) => {
-        // setArticles(res);
+        setArticles(res);
       });
     } else if (blog.source === 'dev') {
       getDevPost({
         user: blog.username,
       }).then((res) => {
-        // setArticles(res);
+        setArticles(res);
       });
     }
   }, [blog.source, blog.username]);

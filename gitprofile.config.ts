@@ -33,14 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: '',
+          title: 'Development of Stripe Payment for Honda GDO Project',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Used Angular 14 to design the payment portal for Garage Door Opener portal for Honda during my tenure with Xavor. Extensively used Nodejs to architect the backend logic and POSTMAN to test APIs. Furthermore, I also used regex to set validation logic for credit card numbers.',
         },
         {
-          title: 'Project Name',
+          title: 'Designed System for Property Renting Application.',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'In my last tenure, I worked on the development and deployment of a system that allows user to rent and buy properties. Set up APIs with Firebase Firestore to store records, transitioned the application from simple CSS to Tailwind while also making it responsive on smaller screens.',
         },
       ],
     },

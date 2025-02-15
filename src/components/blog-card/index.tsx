@@ -193,11 +193,11 @@ const BlogCard = ({
                   )}
                 </h5>
               </div>
-              {/* <div className="col-span-2">
+              <div className="col-span-2">
                 <div className="grid grid-cols-1 gap-6">
                   {loading || !articles ? renderSkeleton() : renderArticles()}
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
